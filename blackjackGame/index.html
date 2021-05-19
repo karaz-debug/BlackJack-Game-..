@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css" integrity="sha512-EZLkOqwILORob+p0BXZc+Vm3RgJBOe1Iq/0fiI7r/wJgzOFZMlsqTa29UEl6v6U6gsV4uIpsNZoV32YZqrCRCQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/style.css">
+    <title>BlackJack || Game</title>
+</head>
+<body>
+    <div class="container-5">
+        <h1>BlackJack Chess Game</h1>
+        <h3><span id="blackjack-result" >Let's Play</span> </h3>
+
+        <div class="flex-blackjack-row-1">
+
+            <div id="Your-box">
+                <h2>You :<span id="your-blackjack-result">0</span> </h2>
+            </div>
+
+            <div id="dealer-box">
+                <h2>Dealer :<span  id="dealer-blackjack-result">0</span></h2>       
+            </div>
+
+        </div>
+
+        <div class="flex-blackjack-row-2">
+            <div>
+                <button class="btn-lg btn-primary mr-2" id="blackjack-hit-button">Hit</button>
+                <button class="btn-lg btn-warning  mr-2" id="blackjack-stand-button">Stand</button>
+                <button class="btn-lg btn-danger " id="blackjack-deal-button">Deal</button>
+            </div>
+        </div>
+
+        <div class="flex-blackjack-row-3">
+            <table style="border: 1px solid black;padding: 5px;">
+                <tr style="border: 1px solid black;">
+                    <th style="border: 1px solid black;padding: 5px;">Wins</th>
+                    <th style="border: 1px solid black;padding: 5px;">Losses</th>
+                    <th style="border: 1px solid black;padding: 5px;">Draws</th>
+                </tr>
+                <tr style="border: 1px solid black;padding: 5px;">
+                    <td style="border: 1px solid black;padding: 5px;"><span id="win">0</span></td>
+                    <td style="border: 1px solid black;padding: 5px;"><span id="losses">0</span></td>
+                    <td style="border: 1px solid black;padding: 5px;"><span id="draw">0</span></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <script src="/app.js"></script>
+</body>
+</html>

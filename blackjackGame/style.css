@@ -1,0 +1,79 @@
+.container-5
+{
+    border: 1px solid black;
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+    
+    
+    /* padding: 10px; */
+}
+
+
+.flex-blackjack-row-1,.flex-blackjack-row-2,.flex-blackjack-row-3
+{
+    border: 2px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 10px;
+    justify-content: space-around;
+    
+}
+
+/* blackjackk stylation */
+.flex-blackjack-row-1,.flex-blackjack-row-2
+{
+    background-image: url(/static/images/blackjack.jpg);
+    color: white;
+}
+.flex-blackjack-row-1  div
+{
+    border: 1px solid black;
+    padding: 10px;
+    height: 350px;
+    flex: 1;
+}
+.flex-blackjack-row-1 img
+{
+    width: 25%;
+    padding: 10px;
+    image-resolution: center;
+}
+/* stylation of blackjack row labad buttonyada */
+.flex-blackjack-row-2 button
+{
+    border: 1px solid black;
+    padding: 10px;
+}
+.flex-blackjack-row-2 div{
+    border: 1px solid black;
+    padding: 10px;
+}
+
+
+
+
+
+.flex-box-container-1 div
+{
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+    align-items: center;
+}
+
+/* style the second part of containe2 */
+
+
+.flex-box-container-2 img 
+{
+    margin: 10px;
+    /* padding: 10px; */
+    flex-direction: row;
+    box-shadow: -6px 9px 32px 6px rgba(5,3,3,0.67);
+    border-radius: 5px;
+    
+}
+
+
